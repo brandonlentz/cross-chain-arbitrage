@@ -1,0 +1,21 @@
+{
+  "name": "arb-swap-quotes",
+  "version": "1.0.0",
+  "description": "Monitor MongoDB for arbitrage opportunities and get 0x swap quotes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "test:solana": "node solanaTest.js"
+  },
+  "dependencies": {
+    "@api/solanafm": "file:.api/apis/solanafm",
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "mongodb": "^6.3.0"
+  }
+}

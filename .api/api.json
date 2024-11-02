@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "apis": [
+    {
+      "identifier": "solanafm",
+      "source": "@solanafm/v1.0#apxpa32plx1f0o8o",
+      "integrity": "sha512-WqlTvw7ezMGnzzKwUDTgvNXFUUZHQF/1T4Y8lNG6ZvW9d2BJLdCuY4n5ah1JE51O/IoP+Rg5pwmFemAe98/F7w==",
+      "installerVersion": "6.1.2"
+    }
+  ]
+}
